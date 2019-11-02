@@ -66,6 +66,6 @@ def quiz():
 def results():
     return render_template('results.html')
 
-@app.route('learningstyles/<styles>')
+@app.route('/learningstyles/<styles>')
 def learningstyle(styles=""):
     return
